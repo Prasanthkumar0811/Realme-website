@@ -1,0 +1,86 @@
+
+
+.carousel-item img{
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card .btn:hover{
+    
+    border-radius: 50%;
+    transition: 5s;
+
+}
+
+#catch i{
+    cursor: pointer;
+}
+.c1 input{
+    background-color: lightblue;
+}
+.r11{
+    background-color: black;
+    color: white;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-groups.success input{
+    border-color: green;
+}
+.input-groups.error input{
+    border-color: red;
+}
+#newarrivals{
+    background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,1) 11%, rgba(24,212,213,1) 46%, rgba(0,212,255,1) 100%);
+color: white;
+
+}
+#forms{
+    background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,1) 11%, rgba(37,48,5,1) 46%, rgba(0,212,255,1) 100%);
+color: white;
+}
+.containers{
+    overflow: hidden;
+    background: rgb(36,31,0);
+    background: linear-gradient(90deg, rgba(36,31,0,1) 11%, rgba(160,75,22,1) 46%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+#home{
+    background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,1) 11%, rgba(150,22,160,1) 46%, rgba(0,212,255,1) 100%);
+color: white;
+overflow: hidden;
+}
+#rows{
+    background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,1) 11%, rgba(160,22,22,0.9389005602240896) 46%, rgba(0,212,255,1) 100%);
+color: white;
+overflow: hidden;
+}
+#i2{
+    position: absolute;
+}
+#i1{
+    position: relative;
+    left: 160px;
+    
+}
+.one{
+    position: relative;
+    animation: example 5s ;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+   
+}
